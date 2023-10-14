@@ -11,13 +11,14 @@ public class Livro {
     this.autor = autor;
     this.anoPublicacao = anoPublicacao;
   }
-
-  public String getTitulo() {
+  
+  
+  /*public String getTitulo() {
     return titulo;
-  }
+  }*/
 
   public void setAutor(String autor) {
-    this.autor = autor;
+    // this.autor = autor;
   }
 
   public String getAutor() {
@@ -27,7 +28,7 @@ public class Livro {
   public int getAnoPublicacao() {
     return anoPublicacao;
   }
-
+  
   @Override
   public String toString() {
     return "Livro{" +

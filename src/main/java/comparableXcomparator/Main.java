@@ -58,5 +58,6 @@ public class Main {
 					livro.getAutor() + " - " +
 					livro.getTitulo());
 		}
+		System.out.println(obterNumeroTotalTarefas());
 	}
 }
